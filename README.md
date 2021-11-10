@@ -12,7 +12,7 @@ The game doesn’t end until one of the players loses all their lives. At this p
 ### Task 1: Extract Nouns for Classes
 Read the description above again and extract / write down the nouns that you feel could make for important entities (manifested in the form of classes) to contain (encapsulate) logic as part of this app.
 
-`player`, `questions`, `game`
+`player`, `question`, `game`
 
 ### Task 2: Write their roles
 What is the role for each class?
@@ -20,17 +20,18 @@ What is the role for each class?
 ```
 player 
 - have player id/name
-- have points
+- have score/points
 ```
 ```
-questions
+question
 - generates the random addition questions between 2 numbers between 1-20
+- provide feedback to the given answer
 ```
 ```
 game
 - where most of the game logic will reside
 - generate the prompts
-- 
+- calculate the turns
 ```
 
 > Write out a brief paragraph describing the role that class will play in your app.

@@ -23,23 +23,5 @@ class Question
     end
   end
 
-  # Get the answer and see if it's right
-  # def correct?
-  #   if @response == @answer
-  #     puts "Great job! You're safe."
-  #     @mark = true
-  #     puts @mark
-  #   else
-  #     puts "Uh oh, that's incorrect."
-  #     @mark = false
-  #     puts @mark
-  #   end
-  # end
-
 end
 
-# Test code
-question = Question.new
-
-# question.ask
-# question.correct?
